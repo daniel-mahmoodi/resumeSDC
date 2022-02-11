@@ -1,0 +1,14 @@
+.aboutBody{
+    max-width: 1200px;
+    margin: auto;
+}
+.aboutHeader{
+    text-align: center;
+    margin-top: 80px;
+    color:#a8223f;
+}
+.aboutText {
+    color: #fbfafd;
+    padding: 20px 100px;
+    text-align: justify;
+}

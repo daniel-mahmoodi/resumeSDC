@@ -1,0 +1,27 @@
+.servicesBody{
+    max-width: 1200px;
+    margin: auto;
+}
+.servicesHeader{
+    text-align: center;
+    margin-top: 80px;
+    color:#a8223f;
+}
+.servicesPart {
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+.servicesPart div{
+    text-align: start;
+    color: #fbfafd;
+    background-color: #23273a;
+    border-radius: 2%;
+    margin: 20px;
+    padding: 30px;
+    width: 30%;
+}
+.socialNetworkIconesImg{
+    width: 50px;
+    margin: 10px;
+}
