@@ -1,0 +1,29 @@
+.LinksBody{
+    max-width: 1200px;
+    margin: auto;
+}
+.LinksHeader{
+    text-align: center;
+    margin-top: 80px;
+    color:#a8223f;
+}
+.LinksPart {
+    display: flex;
+    justify-content:center;
+}
+.LinksPart div{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    text-align: start;
+    color: #fbfafd;
+    background-color: #23273a;
+    border-radius: 2%;
+    margin: 20px;
+    padding: 30px;
+    width: 50%;
+}
+.socialNetworkIconesImg{
+    width: 50px;
+    margin: 10px;
+}

@@ -1,0 +1,36 @@
+.contactBody {
+  max-width: 1200px;
+  margin: auto;
+}
+.contactHeader {
+  text-align: center;
+  margin-top: 80px;
+  color: #a8223f;
+}
+.socialNetworkIcones {
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
+}
+.socialNetworkIcones button {
+  background-color: unset;
+  border: unset;
+  padding: 12px;
+}
+.socialNetworkIcones img {
+  width: 50px;
+  margin: 10px;
+}
+
+.faPhone {
+  color:#ffffff;
+  background-color: rgb(99, 99, 235);
+  font-size: 48px;
+  border: 1px solid rgb(99, 99, 235);
+  padding: 6px;
+  border-radius: 50%;
+}
+.whatsapp{
+  color:#62ef5b;
+  font-size: 58px;
+}

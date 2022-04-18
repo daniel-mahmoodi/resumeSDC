@@ -1,8 +1,8 @@
 .bgBanner {
-    max-width: 1200px;
     background-color: #23273a !important;
     color: white;
     text-align: center;
+    max-width: 1200px;
     margin: auto;
     display: grid;
     justify-items:center;
@@ -11,16 +11,7 @@
     grid-gap:0 0 0 50px;
     padding:10px 10px 0 10px;
 }
+/* max-width: 1200px; */
 .bannerRightItem{
     padding: 0%;
-}
-.socialNetworkIcones button {
-    background-color: unset;
-    border: unset;
-    padding: 0%;
-    margin: 0%;
-}
-.socialNetworkIcones img{
-    width: 50px;
-    margin: 10px;
 }

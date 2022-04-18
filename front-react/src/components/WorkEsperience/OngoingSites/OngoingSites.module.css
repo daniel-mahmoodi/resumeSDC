@@ -1,0 +1,11 @@
+.main {
+  color: rgb(0, 0, 0);
+  width: 1200px;
+  margin: 32px auto;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

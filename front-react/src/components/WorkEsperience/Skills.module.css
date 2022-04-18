@@ -1,26 +1,30 @@
-.servicesBody{
+.skillsBody{
     max-width: 1200px;
     margin: auto;
 }
-.servicesHeader{
+
+.skillsHeader{
     text-align: center;
     margin-top: 80px;
     color:#a8223f;
 }
-.servicesPart {
+
+.skillsPart {
     display: flex;
-    justify-content:center;
-    align-items:flex-start;
-}
-.servicesPart div{
-    text-align: start;
-    color: #fbfafd;
-    background-color: #23273a;
-    border-radius: 2%;
+    text-align: center;
     margin: 20px;
     padding: 30px;
-    width: 30%;
 }
+
+.skillsPart div{
+    color: #fbfafd;
+    background-color: #23273a;
+    border-radius: 3%;
+    margin: 20px;
+    padding: 30px;
+    width: 80%;
+}
+
 .socialNetworkIconesImg{
     width: 50px;
     margin: 10px;
