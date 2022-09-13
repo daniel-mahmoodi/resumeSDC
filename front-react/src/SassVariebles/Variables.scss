@@ -1,0 +1,43 @@
+$whiteColor: #fbfafd;
+$redColor: #a8223f;
+$darkRedColor: #6c172a;
+$blackBackground: #23273a !important;
+$titleSize: 24px;
+$titleWeight: 600;
+$titleAlign: center;
+@mixin middleFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin TitleTextStyle($size, $weight, $align, $color) {
+  font-size: $size;
+  font-weight: $weight;
+  text-align: $align;
+  color: $color;
+  margin-top: 80px;
+}
+@mixin cardBakgrounds {
+  color: $whiteColor;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0;
+}
+
+@mixin btnStyle {
+  background-color: $redColor;
+  //   background-color: green;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 6px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  &:hover {
+    background-color: $darkRedColor;
+  }
+}

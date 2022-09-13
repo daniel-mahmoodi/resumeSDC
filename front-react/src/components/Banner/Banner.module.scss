@@ -1,0 +1,22 @@
+@import "../../SassVariebles/Variables.scss";
+
+.bgBanner {
+  //   background-color: rgb(80, 80, 80);
+  @include cardBakgrounds();
+  @include middleFlex();
+  div {
+    padding: 0;
+    margin: 0;
+  }
+  div {
+    width: 100%;
+    float: left;
+  }
+}
+.mask {
+  mask-image: linear-gradient(black, transparent 90%);
+}
+
+.btn {
+  @include btnStyle();
+}

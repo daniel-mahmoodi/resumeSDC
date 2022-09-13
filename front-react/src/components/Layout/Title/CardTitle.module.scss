@@ -1,0 +1,10 @@
+@import "../../../SassVariables/Variables.scss";
+// $reedColor:#a8223f;
+.main {
+  text-align: center;
+  margin-top: 80px;
+  color: $redColor;
+  //  color:$reedColor ;
+  font-size: 24px;
+  font-weight: 600;
+}
