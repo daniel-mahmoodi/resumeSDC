@@ -8,7 +8,7 @@ const OngoingSites = () => {
     <div className={classes.main}>
       <div className="card-deck">
         <div className="card">
-          <img className="card-img-top" src={SnakeGame} alt="Card image cap" />
+          <img className="card-img-top" src={SnakeGame} alt="Card" />
           <div className={`${[`card-body`]} ${classes.cardBody}`} >
             <h5 className="card-title">SnakeGame</h5>
             <p className="card-text">
@@ -26,7 +26,7 @@ const OngoingSites = () => {
           </div>
         </div>
         <div className="card">
-          <img className="card-img-top" src={TicTacToe} alt="Card image cap" />
+          <img className="card-img-top" src={TicTacToe} alt="Card" />
           <div className={`${[`card-body`]} ${classes.cardBody}`} >
             <h5 className="card-title">TicTacToe</h5>
             <p className="card-text">

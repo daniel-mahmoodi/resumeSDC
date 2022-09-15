@@ -1,4 +1,8 @@
 import profileImage from "../img/proImg.png";
+import DesignedWebSite from "../img/website_icon.png";
+import OngoingWebSite from "../img/processing_icon.png";
+import GitHub from "../img/processing_icon.png";
+import LinkedIn from "../img/processing_icon.png";
 
 const MockSourcesObject = {
   about: {
@@ -8,11 +12,23 @@ const MockSourcesObject = {
   },
   banner: {
     name: "I am Daniel Mahmoodi",
-    content: ` I'm Daniel, Junior FrontEnd web developer(React.js) with one year experience in this field.`,
+    content: `I'm Daniel, Junior FrontEnd web developer(React.js) with one year experience in this field.`,
     button: "My Portfolio",
-    imgUrl:  profileImage,
+    imgUrl: profileImage,
     ImgAlt: "profile-image",
   },
+  parts: {
+    names:['Work Experience',"Links"],
+    experience: [
+      { id: 1, title: "Designed sites", imgUrl: DesignedWebSite },
+      { id: 2, title: "Ongoing sites", imgUrl: OngoingWebSite },
+    ],
+    links: [
+      { id: 1, title: "GitHub", imgUrl: GitHub },
+      { id: 2, title: "LinkedIn", imgUrl: LinkedIn },
+    ],
+  },
+  contacts:{title:'Contacts'}
 };
 
 export default MockSourcesObject;

@@ -1,17 +1,23 @@
 import React from "react";
-
+// Css
 import classes from "./Contact.module.css";
-
-// import {FaPhoneAlt} from 'react-icons/fa';
+// ImgUrls
 import twitter from "../../img/twitter_icon.png";
 import whatsapp from "../../img/whatsapp_icon.png";
 import cellPhone from "../../img/telephone_icon.png";
 import telegram from "../../img/telegram_icon.png";
 import gmail from "../../img/gmail_icon.png";
+// Mock server
+import MockSourcesObject from "../../mock/MockSourcesObject";
+// titleLayout
+import CardTitle from "../Layout/Title/CardTitle";
+
 const Contact = () => {
   return (
     <div className={classes.contactBody}>
-      <h2 className={classes.contactHeader}>Contacts</h2>
+      <CardTitle title={MockSourcesObject.contacts.title}>
+        {MockSourcesObject.contacts.title}
+      </CardTitle>
       <div className={classes.socialNetworkIcones}>
         <button>
           <a href="https://twitter.com/daniel_webdvlpr">
@@ -20,7 +26,7 @@ const Contact = () => {
         </button>
         <button>
           <a href="tel:+989189755675">
-            <img src={cellPhone} />
+            <img src={cellPhone} alt="cellPhone" />
           </a>
         </button>
         <button>
@@ -32,7 +38,7 @@ const Contact = () => {
           </a>
         </button>
         <button>
-          <a href="mailto:danialmahmoodi2@gmail.com">
+          <a href="mailto:mahmoodidanial2@gmail.com">
             <img src={gmail} alt="" />
           </a>
         </button>

@@ -1,0 +1,7 @@
+.mainBody {
+  display: block;
+  margin: auto;
+  width: 1200px;
+  box-sizing: border-box;
+  padding: 0;
+}

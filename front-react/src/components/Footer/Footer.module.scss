@@ -1,3 +1,4 @@
+@import '../../SassVariebles/Variables.scss';
 .mainFooter {
   display: flex;
   align-content: center;
@@ -15,5 +16,5 @@
   height: 6px;
   border-width: 0;
   color: #a8223f;
-  background-color: #fbfafd;
-}/*# sourceMappingURL=Footer.module.css.map */
+  background-color: $whiteColor;
+}

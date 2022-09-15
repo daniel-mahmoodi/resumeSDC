@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"CardTitle.module.css"}
+{"version":3,"sources":["CardTitle.module.scss","../../../SassVariebles/Variables.scss","CardTitle.module.css"],"names":[],"mappings":"AACA;ECaE,eAVU;EAWV,gBAVY;EAWZ,kBAVW;EAWX,cAhBS;EAiBT,gBAAA;ACZF","file":"CardTitle.module.css"}

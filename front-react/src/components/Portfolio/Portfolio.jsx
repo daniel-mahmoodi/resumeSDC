@@ -20,10 +20,10 @@ const Portfolio = () => {
             <img src={callContact} alt="" />
             <div>+989189755675</div>
           </a>
-          <a href="">
-            <img src={locationContact} alt="" />
-            <div>kurdestan</div>
-          </a>
+          {/* <a href=""> */}
+          <img src={locationContact} alt="" />
+          <div>kurdestan</div>
+          {/* </a> */}
           <a href="https://www.linkedin.com/in/danial-mahmoodi-29ba60204/">
             <img src={linkedinContact} alt="" />
             https://www.linkedin.com/in/danial-mahmoodi

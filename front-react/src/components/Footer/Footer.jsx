@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
+import Contact from "../Contact/Contact";
 
-import classes from './Footer.module.css'
+import classes from "./Footer.module.css";
 
 const Footer = () => {
   return (
-   <div>
-     <hr className={classes.hrStyle}/>
-     <a className={classes.mainFooter} href="tel:+989332364955">Contact Us</a></div>
-  )
-}
+    <div>
+      <hr className={classes.hrStyle} />
+     <Contact/>
+    </div>
+  );
+};
 export default Footer;

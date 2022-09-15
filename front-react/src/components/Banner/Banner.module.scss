@@ -6,15 +6,36 @@
   @include middleFlex();
   div {
     padding: 0;
-    margin: 0;
+    margin-left: -12rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
   div {
     width: 100%;
     float: left;
   }
-}
-.mask {
-  mask-image: linear-gradient(black, transparent 90%);
+  .mask {
+    mask-image: linear-gradient(black, transparent 90%);
+  }
+  .content {
+    margin-left: -20rem;
+    @include middleFlex();
+    flex-direction: column;
+    .toolsIcone {
+      margin: 0.8rem;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      // background-color: $whiteColor;
+      padding: 0;
+      margin: 0.5rem;
+      cursor: pointer;
+    }
+  }
 }
 
 .btn {

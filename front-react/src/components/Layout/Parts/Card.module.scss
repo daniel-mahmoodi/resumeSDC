@@ -1,0 +1,34 @@
+@import "../../../SassVariebles/Variables.scss";
+
+.parts {
+  @include middleFlex();
+  margin: 0 20rem !important;
+}
+.part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.3rem 0.8rem;
+  background-color: $redColor;
+  &:hover {
+    background-color: $darkRedColor;
+    color: $darkWhiteColor;
+    cursor: pointer;
+  }
+}
+
+h2 {
+  color: #fbfafd;
+  margin: 0.8rem;
+  padding: 0.8rem 0.8rem 1.8rem 0.8rem;
+}
+
+img {
+  width: 50px;
+  margin: 0.8rem 0.8rem 0rem 0.8rem;
+}
