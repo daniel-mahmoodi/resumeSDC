@@ -1,32 +1,27 @@
 import React from "react";
 
-import classes from "./Skills.module.css";
+// import classes from "./Skills.module.css";
+import MockSourcesObject from "../../mock/MockSourcesObject";
+import DesignedSites from "./OngoingSites/DesignedSites";
+// import CardItem from "./OngoingSites/CardItem";
+// import OngoingSites from "./OngoingSites/OngoingSites";
+import { useParams } from "react-router-dom";
 
-import website from "../../img/website_icon.png";
-import processing from "../../img/processing_icon.png";
+// import website from "../../img/website_icon.png";
+// import processing from "../../img/processing_icon.png";
 
-const WorkExperience = (props) => {
+const WorkExperience = () => {
+  const params = useParams();
+  const Mock = MockSourcesObject.parts.experience;
+  const item = Mock.find((item) => item.id === params.cardId);
+ 
+  if (!item) {
+    return <p style={{ color: "white" }}>no items found</p>;
+  }
+
   return (
-    <div className={classes.skillsBody}>
-      <h2 className={classes.skillsHeader}>Work Experience</h2>
-      <div className={classes.skillsPart}>
-        <div>
-          <img
-            className={classes.socialNetworkIconesImg}
-            src={website}
-            alt=""
-          />
-          <h2>Designed sites</h2>
-        </div>
-        <div onClick={props.clickOnOngoingSites}>
-          <img
-            className={classes.socialNetworkIconesImg}
-            src={processing}
-            alt=""
-          />
-          <h2>Ongoing sites</h2>
-        </div>
-      </div>
+    <div>
+      <DesignedSites Mock={item.items} />
     </div>
   );
 };

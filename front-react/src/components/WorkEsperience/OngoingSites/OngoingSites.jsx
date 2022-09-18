@@ -1,70 +1,32 @@
-import React from "react";
-import classes from "./OngoingSites.module.css";
-import SuperMario from "../../../img/SuperMario.png";
-import SnakeGame from "../../../img/SnakeGame.png";
-import TicTacToe from "../../../img/tictactoe.png";
-const OngoingSites = () => {
-  return (
-    <div className={classes.main}>
-      <div className="card-deck">
-        <div className="card">
-          <img className="card-img-top" src={SnakeGame} alt="Card" />
-          <div className={`${[`card-body`]} ${classes.cardBody}`} >
-            <h5 className="card-title">SnakeGame</h5>
-            <p className="card-text">
-            Classic Super Mario game made with JavaScript and Css
-            </p>
-            <a
-              href="https://github.com/daniel-mahmoodi/SnakeGame"
-              className="btn btn-primary"
-            >
-              Go to SnakeGame
-            </a>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 7 months ago</small>
-          </div>
-        </div>
-        <div className="card">
-          <img className="card-img-top" src={TicTacToe} alt="Card" />
-          <div className={`${[`card-body`]} ${classes.cardBody}`} >
-            <h5 className="card-title">TicTacToe</h5>
-            <p className="card-text">
-            created TicTacToe game with Reactjs and Css
+// import React from "react";
+// // import { useParams } from "react-router-dom";
+// import classes from "./OngoingSites.module.css";
+// import CardItem from "./CardItem";
+// import SuperMario from "../../../img/SuperMario.png";
+// import SnakeGame from "../../../img/SnakeGame.png";
+// import TicTacToe from "../../../img/tictactoe.png";
+// const OngoingSites = (props) => {
+  // const params = useParams();
+  // const item = Mock.find((item) => item.id === params.cardId);
+  // // console.log("item", item);
+  // // console.log("Mock", Mock);
+  // // console.log("params.cardId", params.cardId);
+  // // console.log("item.id", item.id);
+  // if (!item) {
+  //   return <p style={{ color: "white" }}>no items found</p>;
+  // }
+//   console.log("props ongoing Mock", props.Mock);
+//   return (
+//     // <Route path="/home/1">
+//     <div className={classes.main}>
+//       <div className="card-deck">
+//         {props.Mock.map((item) => (
+//           <CardItem key={item.id} item={item} />
+//         ))}
+//       </div>
+//     </div>
+//     // </Route>
+//   );
+// };
 
-            </p>
-            <a
-              href="https://github.com/daniel-mahmoodi/TicTacToe"
-              className="btn btn-primary"
-            >
-              Go to TicTacToe
-            </a>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 months ago</small>
-          </div>
-        </div>
-        <div className="card">
-          <img className="card-img-top " src={SuperMario} alt="" />
-          <div className={`${[`card-body`]} ${classes.cardBody}`} >
-            <h5 className="card-title">Super Mario</h5>
-            <p className="card-text">
-              Classic Super Mario game made with JavaScript and kaboom
-            </p>
-            <a
-              href="https://github.com/daniel-mahmoodi/mario-game"
-              className="btn btn-primary"
-            >
-              Go to mario-game
-            </a>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 months ago</small>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default OngoingSites;
+// export default OngoingSites;

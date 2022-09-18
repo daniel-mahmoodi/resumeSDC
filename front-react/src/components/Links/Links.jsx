@@ -1,32 +1,21 @@
 import React from "react";
 
-import classes from "./Links.module.css";
+import classes from "../Layout/Parts/Card.module.css";
+import CardTitle from "../Layout/Title/CardTitle";
 
-import github from "../../img/github_icon.png";
-import linkedin from "../../img/linkedin_icon.png";
-
-const Links = () => {
+const Links = (props) => {
   return (
-    <div className={classes.LinksBody}>
-      <h2 className={classes.LinksHeader}>Links</h2>
-      <div className={classes.LinksPart}>
-        <div>
-          <a href="https://github.com/daniel-mahmoodi">
-
-          <img className={classes.socialNetworkIconesImg} src={github} alt="" />
+    <div>
+      <CardTitle title={props.title}>{props.title}</CardTitle>
+      <div className={classes.parts}>
+        {props.parts.map(({ id, title, imgUrl, linkUrl }) => (
+          <a href={linkUrl} key={id} className={classes.part}>
+            <div>
+              <img src={imgUrl} alt={imgUrl} />
+              <h2>{title}</h2>
+            </div>
           </a>
-          <h2>GitHub</h2>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/danial-mahmoodi-29ba60204/">
-            <img
-              className={classes.socialNetworkIconesImg}
-              src={linkedin}
-              alt=""
-            />
-          </a>
-          <h2>LinkedIn</h2>
-        </div>
+        ))}
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ml-5">
-              <li className="nav-item active">
+              <li className="nav-item ">
                 <NavLink className="nav-link" to="/home">
                   Home <span className="sr-only">(current)</span>
                 </NavLink>
